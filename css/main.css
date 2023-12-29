@@ -30,6 +30,10 @@ a {
       width: 200px;
     }
 
+    main .container .card a {
+      padding: 7px;
+     
+    }
     
 
 }
