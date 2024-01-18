@@ -12,3 +12,5 @@ Bem-vindo à Nitro games, sua plataforma de jogos favorita! Este projeto é um l
 ## Funcionalidades JavaScript
 
 Tornar funcional o o menu mobile e criar os cards dos jogos de acordo com seus gêneros.
+
+**O projeto está disponível através do link:** https://sitenitrogames.vercel.app/
