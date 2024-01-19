@@ -29,6 +29,8 @@ a {
 }
 
 
+
+
 /*-----> MEDIA QUERIES <-------*/
 
 @media screen and (max-width: 500px) {
@@ -42,6 +44,12 @@ a {
       width: 200px;
     }
 
+    .sobre {
+      max-width: 100%;
+      min-width: 260px;
+    }
+
+    
     main .container .card a {
       padding: 6px;
       font-size: 13px;
@@ -75,6 +83,12 @@ a {
    #jogos .card h1 {
     font-size: 15px;
   }
+}
+
+@media screen and (max-width: 767px){
+  .sobre p{
+  font-size: 16px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -247,17 +261,20 @@ main .container a:hover {
 }
 
 /*---------->  SOBRE <----------*/
-#sobre {
+
+
+.sobre {
   display: block;
   width: 60%;
+  height: 60vh;
   border-radius: 10px;
   text-align: center;
-  background-color: var(--white);
   margin: 40px auto;
   padding: 30px;
+  font-size: 24px;
 }
 
-#sobre h1 {
+.sobre h1 {
   margin-bottom: 20px;
 }
 
